@@ -1,0 +1,2 @@
+turtle_commander
+-DCATKIN_DEVEL_PREFIX=/home/daria/hse/projects/self_driving/HSE_Self_driving/hw1/devel -DCMAKE_INSTALL_PREFIX=/home/daria/hse/projects/self_driving/HSE_Self_driving/hw1/install -G Unix Makefiles

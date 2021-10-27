@@ -31,9 +31,8 @@ class LaserProcesser:
         print(f'Num points after filtering: {mask.sum()}')
         
         angles = msg.angle_min + np.arange(self.ranges.shape[0]) * msg.angle_increment
-        self.x = (self.ranges * np.cos(angles))
-        self.y = (self.ranges * np.sin(angles))
-        # [mask]
+        self.x = (self.ranges * np.cos(angles))[mask]
+        self.y = (self.ranges * np.sin(angles))[mask]
         
     def visualize_points(self):
         marker = Marker()

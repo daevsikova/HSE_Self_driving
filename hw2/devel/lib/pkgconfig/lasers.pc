@@ -1,0 +1,8 @@
+prefix=/home/daria/hse/projects/self_driving/HSE_Self_driving/hw2/devel
+
+Name: lasers
+Description: Description of lasers
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

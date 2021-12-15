@@ -3,3 +3,5 @@
 
 #### 1. [Chasing turtle](/hw1)
 #### 2. [Laser scans](/hw2)
+#### 3. [Duckietown](/hw3)
+
